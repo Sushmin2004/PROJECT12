@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Resposive</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <section class="nav-btn-1">
+            <nav class="nav-btn">
+                <a href="#">Home</a>
+                <a href="#">Service</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact us</a>
+            </nav>
+            <button id="open" onclick="ope()">Open</button>
+        </section>
+    </header>
+    <main>
+        <section class="side-nav" id="side-btn">
+            <nav class="side-btn">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </nav>
+            <button id="close" onclick="clos()">Close</button>
+        </section>
+        <section class="list">
+            <nav>
+                <ul>
+                    <li><a href="#">Blog1</a></li>
+                    <li><a href="#">Blog2</a></li>
+                    <li><a href="#">Blog3</a></li>
+                    <li><a href="#">Blog4</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="all">
+            <section>
+                <h1>Blog1</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum illo mollitia odio! Beatae voluptate
+                    voluptatibus, accusantium assumenda modi, aliquid quis sed praesentium illum, pariatur fugit!
+                    Reprehenderit recusandae nemo facilis laudantium! Lorem ipsum, dolor sit amet consectetur
+                    adipisicing
+                    elit. Voluptas, porro eius! Iusto officia possimus nostrum aliquid nulla, voluptatibus error
+                    explicabo
+                    iure fugiat fuga officiis ipsum, magni, velit ipsa aut fugit! Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Rerum illo mollitia odio! Beatae voluptate
+                    voluptatibus, accusantium assumenda modi, aliquid quis sed praesentium illum, pariatur fugit!
+                    Reprehenderit recusandae nemo facilis laudantium! Lorem ipsum, dolor sit amet consectetur
+                    adipisicing
+                    elit. Voluptas, porro eius! Iusto officia possimus nostrum aliquid nulla, voluptatibus error
+                    explicabo
+                    iure fugiat fuga officiis ipsum, magni, velit ipsa aut fugit!</p>
+            </section>
+            <section>
+                <h1>Blog2</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum illo mollitia odio! Beatae voluptate
+                    voluptatibus, accusantium assumenda modi, aliquid quis sed praesentium illum, pariatur fugit!
+                    Reprehenderit recusandae nemo facilis laudantium! Lorem ipsum, dolor sit amet consectetur
+                    adipisicing
+                    elit. Voluptas, porro eius! Iusto officia possimus nostrum aliquid nulla, voluptatibus error
+                    explicabo
+                    iure fugiat fuga officiis ipsum, magni, velit ipsa aut fugit! Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Rerum illo mollitia odio! Beatae voluptate
+                    voluptatibus, accusantium assumenda modi, aliquid quis sed praesentium illum, pariatur fugit!
+                    Reprehenderit recusandae nemo facilis laudantium! Lorem ipsum, dolor sit amet consectetur
+                    adipisicing
+                    elit. Voluptas, porro eius! Iusto officia possimus nostrum aliquid nulla, voluptatibus error
+                    explicabo
+                    iure fugiat fuga officiis ipsum, magni, velit ipsa aut fugit!</p>
+            </section>
+            <section>
+                <h1>Blog3</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum illo mollitia odio! Beatae voluptate
+                    voluptatibus, accusantium assumenda modi, aliquid quis sed praesentium illum, pariatur fugit!
+                    Reprehenderit recusandae nemo facilis laudantium! Lorem ipsum, dolor sit amet consectetur
+                    adipisicing
+                    elit. Voluptas, porro eius! Iusto officia possimus nostrum aliquid nulla, voluptatibus error
+                    explicabo
+                    iure fugiat fuga officiis ipsum, magni, velit ipsa aut fugit! Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Rerum illo mollitia odio! Beatae voluptate
+                    voluptatibus, accusantium assumenda modi, aliquid quis sed praesentium illum, pariatur fugit!
+                    Reprehenderit recusandae nemo facilis laudantium! Lorem ipsum, dolor sit amet consectetur
+                    adipisicing
+                    elit. Voluptas, porro eius! Iusto officia possimus nostrum aliquid nulla, voluptatibus error
+                    explicabo
+                    iure fugiat fuga officiis ipsum, magni, velit ipsa aut fugit!</p>
+            </section>
+            <section>
+                <h1>Blog4</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum illo mollitia odio! Beatae voluptate
+                    voluptatibus, accusantium assumenda modi, aliquid quis sed praesentium illum, pariatur fugit!
+                    Reprehenderit recusandae nemo facilis laudantium! Lorem ipsum, dolor sit amet consectetur
+                    adipisicing
+                    elit. Voluptas, porro eius! Iusto officia possimus nostrum aliquid nulla, voluptatibus error
+                    explicabo
+                    iure fugiat fuga officiis ipsum, magni, velit ipsa aut fugit! Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Rerum illo mollitia odio! Beatae voluptate
+                    voluptatibus, accusantium assumenda modi, aliquid quis sed praesentium illum, pariatur fugit!
+                    Reprehenderit recusandae nemo facilis laudantium! Lorem ipsum, dolor sit amet consectetur
+                    adipisicing
+                    elit. Voluptas, porro eius! Iusto officia possimus nostrum aliquid nulla, voluptatibus error
+                    explicabo
+                    iure fugiat fuga officiis ipsum, magni, velit ipsa aut fugit!</p>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <p>@Copyright-2004</p>
+    </footer>
+    <script>
+        function ope() {
+            document.getElementById("side-btn").style.display = "block"
+        }
+
+        function clos() {
+            document.getElementById("side-btn").style.display = "none"
+        }
+    </script>
+</body>
+
+</html>
